@@ -1,0 +1,29 @@
+{
+  "name": "streamsnodejs",
+  "version": "0.0.1",
+  "description": "Nodejs Streams begginer",
+  "main": "src/index.js",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/delciocapolo/streamsnodejs"
+  },
+  "type": "module",
+  "keywords": [
+    "streams",
+    "nodejs",
+    "backend",
+    "client-server",
+    "server",
+    "api"
+  ],
+  "author": "Delcio Capolo",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
